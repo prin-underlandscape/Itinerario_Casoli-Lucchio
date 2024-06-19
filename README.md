@@ -1,4 +1,4 @@
-# Itinerario_Casoli-Lucchio (mappa non collegata)
+# Itinerario_Casoli-Lucchio ([mappa](https://umap.openstreetmap.fr/it/map/itinerario_casoli-lucchio_1084935?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true))
 Percorso ad anello che collega gli abitati di Lucchio e Casoli
 ## Percorso: Itinerario Casoli-Lucchio
 [<img src='/vignettes/XNdwQ7LB.jpg' width='250'/>](/vignettes/XNdwQ7LB.jpg) 

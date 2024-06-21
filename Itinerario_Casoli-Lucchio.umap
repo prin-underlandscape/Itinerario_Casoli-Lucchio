@@ -34,6 +34,80 @@
   "layers": [
     {
       "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "name": "Percorso",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "Brown",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# {Titolo}\n##   ( [[https://sites.google.com/view/prin-underlandscape/home-page/attivit%C3%A0-sul-campo/{Link}|link]]) \n##   [[{GitHubURL}|GitHub repository]] \n{Descrizione}\n--- \n**Lunghezza** (km): {Lunghezza}\n**Durata**: {Durata}\n**Dislivello in salita** (m): {Dislivello in salita}\n**Dislivello in discesa** (m): {Dislivello in discesa} \n--- \nRegistrato il {Data} alle {Ora} \ncon {Strumento} \nda {Autore}"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "name": "POI",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "Brown",
+        "iconClass": "Ball",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# {Titolo}\n{{{Foto}|300}} \n##   [[{GitHubURL}|GitHub repository]] \n##   [[{Link}|Link]] alla pagina dedicata \n{Descrizione} \n**Tag primario**: {Tag primario}\n**Altri tag**: {Altri tag}\n**Altitudine** (m): {Altitudine} \n--- \nScattata il {Data} alle {Ora} \ncon {Strumento} \nda {Autore}"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "name": "QRtag",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "Brown",
+        "iconClass": "Ball",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# {Titolo} \n{{{Foto}|300}} \n## [[{GitHubURL}|GitHub repository]] \n{Testo} \n \nFID: {fid}"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "name": "Sito",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "DarkBlue",
+        "iconClass": "Ball",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# SITO {Sito}\n{{{Foto}|300}}\n## {Titolo} \n##   [[{GitHubURL}|GitHub repository]] \n## [[{Link}|Link]] alla pagina dedicata\n{Descrizione}\n---\n**Tipologia**: {Tipologia sito}\n**Definizione**: {Definizione}\n**Cronologia iniziale**: {Cronologia iniziale}\n**Cronologia finale**: {Cronologia finale}\n**Reperti ceramici**: {Reperti ceramici}\n**Reperti geologici**: {Reperti geologici}\n**Reperti organici**: {Reperti organici}\n**Altri manufatti**: {Altri manufatti}\n---\n**Altitudine** (m): {Altitudine}\n**Sicurezza**: {Sicurezza}\n**Accessibilità**: {Accessibilità}\n**Copertura rete mobile**: {Copertura rete mobile}\n**Copertura GPS**: {Copertura GPS}\n---\n**Provincia**: {Provincia}\n**Comune**: {Comune}\n**Toponimo**: {Toponimo}\n**Microtoponimo**: {Microtoponimo}\n**Strade d'accesso**: {Strade d'accesso}\n**Altra localizzazione**: {Altri elementi di localizzazione}\n---\n**Prima visita**: {Data} {Ora}\n**Strumento**: {Strumento}\n[[{Bibliografia}|Link]] alla bibliografia"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "name": "Risorsa",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "Brown",
+        "iconClass": "Ball",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# {Titolo}\n{{{Foto}|300}}\n{Descrizione}\n**Altitudine** (m): {Altitudine}\n**Repository GitHub**: [[{GitHubURL}|link]]\n**Pagina descrittiva dell'itinerario**: [[{ULSPLink}|link]]\n**Pagina descrittiva della risorsa** :[[{Link}|link]]\n**Tag primario**: {Tag primario}\n**Altri tag**: {Altri tag}"
+      }
+    },
+    {
+      "type": "FeatureCollection",
       "features": [
         {
           "type": "Feature",
@@ -42,10 +116,7 @@
             "Provincia": "Lucca",
             "Comune": "Bagni di Lucca",
             "Descrizione": "Percorso ad anello che collega i paesi di Lucchio e Casoli, attraverso un sentiero per lo più di versante che gira intorno al complesso della Penna di Lucchio-Monte Memoriante, riprendendo l'antica mulattiera, attualmente i sentieri CAI 386 e 388.",
-            "Copertura rete mobile": "",
-            "Copertura GPS": "",
-            "Data": "",
-            "ulsp_type": "Percorso",
+            "ulsp_type": "Itinerario",
             "Titolo": "Itinerario Casoli-Lucchio",
             "Punto d'accesso": "1. Via Debbio, accesso al sentiero CAI 386 poco dopo edicola votiva;\n2. Dal parcheggio di Casoli, accesso sentiero CAI 388;\n3. Dalla piazza di Lucchio, accesso sentiero CAI 386;\n4. Dalla Fontana Vecchia, prima del parcheggio di Lucchio, accesso sentiero CAI 388",
             "Foto accesso": "https://i.postimg.cc/XNdwQ7LB/1-Casoli-grotta-della-Piella-inizio-sentiero-1.jpg",
@@ -54,13 +125,13 @@
             "Durata": "04:45:00",
             "Dislivello in salita": "881",
             "Dislivello in discesa": "849",
-            "Segnaletica": "",
-            "Strumento": "",
-            "Ora": "",
+            "Segnaletica": "Congruente",
             "_umap_options": {
               "popupTemplate": "Default"
             },
-            "GitHubURL": "https://github.com/prin-underlandscape/Itinerario_Casoli-Lucchio"
+            "Tipologia": "Naturalistico",
+            "GitHubURL": "https://github.com/prin-underlandscape/Itinerario_Casoli-Lucchio",
+            "ULSPLink": "https://sites.google.com/view/prin-underlandscape/itinerari/val-di-lima?authuser=0"
           },
           "geometry": {
             "type": "LineString",
@@ -1620,83 +1691,19 @@
         }
       ],
       "_umap_options": {
-        "name": "Percorso",
+        "name": "Itinerario",
         "displayOnLoad": true,
         "browsable": true,
         "remoteData": {},
-        "color": "Brown",
+        "color": "Green",
         "popupShape": "Panel",
         "popupTemplate": "Table",
-        "popupContentTemplate": "# {Titolo}\n##   ( [[https://sites.google.com/view/prin-underlandscape/home-page/attivit%C3%A0-sul-campo/{Link}|link]]) \n##   [[{GitHubURL}|GitHub repository]] \n{Descrizione}\n--- \n**Lunghezza** (km): {Lunghezza}\n**Durata**: {Durata}\n**Dislivello in salita** (m): {Dislivello in salita}\n**Dislivello in discesa** (m): {Dislivello in discesa} \n--- \nRegistrato il {Data} alle {Ora} \ncon {Strumento} \nda {Autore}"
-      }
-    },
-    {
-      "type": "FeatureCollection",
-      "features": [],
-      "_umap_options": {
-        "name": "POI",
-        "displayOnLoad": true,
-        "browsable": true,
-        "remoteData": {},
-        "color": "Brown",
-        "iconClass": "Ball",
-        "popupShape": "Panel",
-        "popupTemplate": "Table",
-        "popupContentTemplate": "# {Titolo}\n{{{Foto}|300}} \n##   [[{GitHubURL}|GitHub repository]] \n##   [[{Link}|Link]] alla pagina dedicata \n{Descrizione} \n**Tag primario**: {Tag primario}\n**Altri tag**: {Altri tag}\n**Altitudine** (m): {Altitudine} \n--- \nScattata il {Data} alle {Ora} \ncon {Strumento} \nda {Autore}"
-      }
-    },
-    {
-      "type": "FeatureCollection",
-      "features": [],
-      "_umap_options": {
-        "name": "QRtag",
-        "displayOnLoad": true,
-        "browsable": true,
-        "remoteData": {},
-        "color": "Brown",
-        "iconClass": "Ball",
-        "popupShape": "Panel",
-        "popupTemplate": "Table",
-        "popupContentTemplate": "# {Titolo} \n{{{Foto}|300}} \n## [[{GitHubURL}|GitHub repository]] \n{Testo} \n \nFID: {fid}"
-      }
-    },
-    {
-      "type": "FeatureCollection",
-      "features": [],
-      "_umap_options": {
-        "name": "Sito",
-        "displayOnLoad": true,
-        "browsable": true,
-        "remoteData": {},
-        "color": "DarkBlue",
-        "iconClass": "Ball",
-        "popupShape": "Panel",
-        "popupTemplate": "Table",
-        "popupContentTemplate": "# SITO {Sito}\n{{{Foto}|300}}\n## {Titolo} \n##   [[{GitHubURL}|GitHub repository]] \n## [[{Link}|Link]] alla pagina dedicata\n{Descrizione}\n---\n**Tipologia**: {Tipologia sito}\n**Definizione**: {Definizione}\n**Cronologia iniziale**: {Cronologia iniziale}\n**Cronologia finale**: {Cronologia finale}\n**Reperti ceramici**: {Reperti ceramici}\n**Reperti geologici**: {Reperti geologici}\n**Reperti organici**: {Reperti organici}\n**Altri manufatti**: {Altri manufatti}\n---\n**Altitudine** (m): {Altitudine}\n**Sicurezza**: {Sicurezza}\n**Accessibilità**: {Accessibilità}\n**Copertura rete mobile**: {Copertura rete mobile}\n**Copertura GPS**: {Copertura GPS}\n---\n**Provincia**: {Provincia}\n**Comune**: {Comune}\n**Toponimo**: {Toponimo}\n**Microtoponimo**: {Microtoponimo}\n**Strade d'accesso**: {Strade d'accesso}\n**Altra localizzazione**: {Altri elementi di localizzazione}\n---\n**Prima visita**: {Data} {Ora}\n**Strumento**: {Strumento}\n[[{Bibliografia}|Link]] alla bibliografia"
-      }
-    },
-    {
-      "type": "FeatureCollection",
-      "features": [],
-      "_umap_options": {
-        "name": "Risorsa",
-        "displayOnLoad": true,
-        "browsable": true,
-        "remoteData": {},
-        "color": "Brown",
-        "iconClass": "Ball",
-        "popupShape": "Panel",
-        "popupTemplate": "Table",
-        "popupContentTemplate": "# {Titolo}\n{{{Foto}|300}}\n{Descrizione}\n**Altitudine** (m): {Altitudine}\n**Repository GitHub**: [[{GitHubURL}|link]]\n**Pagina descrittiva dell'itinerario**: [[{ULSPLink}|link]]\n**Pagina descrittiva della risorsa** :[[{Link}|link]]\n**Tag primario**: {Tag primario}\n**Altri tag**: {Altri tag}"
+        "popupContentTemplate": "# {Titolo}\n## Itinerario {Tipologia}\n   ( [[https://sites.google.com/view/prin-underlandscape/home-page/attivit%C3%A0-sul-campo/{Link}|link]]) \n##   [[{GitHubURL}| Download ]] \n{Descrizione}\n--- \n**Lunghezza** (km): {Lunghezza}\n**Durata**: {Durata}\n**Dislivello in salita** (m): {Dislivello in salita}\n**Dislivello in discesa** (m): {Dislivello in discesa}"
       }
     }
   ],
   "geometry": {
     "type": "Point",
-    "coordinates": [
-      10.682944204503244,
-      44.04164232169595,
-      0
-    ]
+    "coordinates": 10.682944204503244
   }
 }
